@@ -6,17 +6,17 @@
 Summary:	Askpass openssh transition dialog for LXQt desktop suite
 Summary(pl.UTF-8):	Okno dialogowe pytania o hasło OpenSSH dla środowiska graficznego LXQt
 Name:		lxqt-openssh-askpass
-Version:	2.3.0
+Version:	2.4.0
 Release:	1
 License:	GPLv2 and LGPL-2.1+
 Group:		X11/Applications
 Source0:	https://github.com/lxqt/lxqt-openssh-askpass/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	e337d2687c9f1cb77c617914f0ed6d09
+# Source0-md5:	33cc903f04f9bf36b40074dd6c261e15
 URL:		http://www.lxqt.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Widgets-devel >= %{qtver}
 BuildRequires:	cmake >= 3.18.0
-BuildRequires:	liblxqt-devel >= 2.3.0
+BuildRequires:	liblxqt-devel >= 2.4.0
 BuildRequires:	qt6-linguist >= %{qtver}
 BuildRequires:	xz-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
